@@ -228,10 +228,11 @@
 //Second way of accessing an element
 // console.log(document.getElementById('title'));
 
-document.querySelector('.title').innerHTML += ' FrontEnd Simplified'
+// document.querySelector('.title').innerHTML += ' FrontEnd Simplified'
 
-function changeTitleToRed() {
-    console.log('clicked')
-    document.querySelector('.title').style.color = 'red'
+// function changeTitleToRed() {
+//     console.log('clicked')
+//     document.querySelector('.title').style.color = 'red'
 
-}
+// }
+
