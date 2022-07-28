@@ -238,7 +238,6 @@
 
 // let myArray = ['some', 'text', 'someee'];
 
-
 // let newArr = myArray.filter((element) => {
 //     if (element !== 'text') {
 //         return true;
@@ -262,9 +261,9 @@
 // function lastElem(arr) {
 //     for (i = 0; i = arr.length - 1; ++i) {
 //         return arr[i]
-//     } 
+//     }
 // }
-                   //shorthand
+//shorthand
 // function arrLength (arr) {
 //     return arr[arr.length - 1]
 // }
@@ -281,7 +280,6 @@
 
 // console.log(arrSum([1, 3, 5]))
 
-
 // function reverseString (str) {
 //     let reversedString = ''
 //     for (let i = 0 ; i < str.length; ++i) {
@@ -290,6 +288,56 @@
 //     return reversedString
 // }
 
+// function reverseString(str) {
+//     return str.split('').reverse().join('')
+// }
+
+// console.log(reverseString('abc'))
+
+// function convertToZeros(arr) {
+//     for (let i = 0; i < arr.length; ++i ) {
+//         arr[i] = 0
+//         }
+//         return arr;
+//     }
+
+// function convertToZeros(arr) {
+//     return new Array(arr.length).fill(0);
+// }
+
+// // converts every element of an arry to whatever is on the right hand side of thigns
+// function convertToZeros(arr) {
+//     return arr.map(elem => 0)
+// }
+
+// console.log(convertToZeros([01, 02, 3, 4, 5]))
+
+// function removeApples(arr) {
+//   let newArr = arr.filter((element) => {
+//     if (element !== "apples") {
+//       return true;
+//     }
+//   });
+//   return newArr
+// // }
+
+// function removeApples(arr) {
+//     return arr.filter(elem => elem === 'apples')
+// }
+
+// console.log(removeApples(['text', 'apples', 'derrick']))
 
 
-console.log(reverseString('abc'))
+// function filterOutFalsy(arr) {
+//     return arr.filter(elem => !!elem === true)
+// }
+
+// console.log(filterOutFalsy(['', null, undefined, 0, []]))
+
+
+// function convertToBoolean(arr) {
+//     return arr.map(elem => !!elem)
+// }
+
+// console.log(convertToBoolean(['David', 500, 0, "", []]))
+
