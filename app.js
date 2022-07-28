@@ -236,3 +236,60 @@
 
 // }
 
+// let myArray = ['some', 'text', 'someee'];
+
+
+// let newArr = myArray.filter((element) => {
+//     if (element !== 'text') {
+//         return true;
+//     } return false;
+// })
+
+// console.log(newArr)
+
+// function filterOutFalsy(elem1, elem2) {
+//     return (!elem1) ? elem1 : elem2
+// }
+
+// console.log(filterOutFalsy(0, 5))
+
+// function arrLength(arr) {
+//     return arr.length
+// }
+
+// console.log(arrLength([1, 2, 3, 4, 5, 4]))
+
+// function lastElem(arr) {
+//     for (i = 0; i = arr.length - 1; ++i) {
+//         return arr[i]
+//     } 
+// }
+                   //shorthand
+// function arrLength (arr) {
+//     return arr[arr.length - 1]
+// }
+
+// console.log(lastElem(['dog', 'cat', 'fridge', '1']))
+
+// function arrSum(arr) {
+//     let sum = 0
+//     for (i = 0; i < arr.length; ++i) {
+//         sum = sum + arr[i]
+//     }
+//     return sum
+// }
+
+// console.log(arrSum([1, 3, 5]))
+
+
+// function reverseString (str) {
+//     let reversedString = ''
+//     for (let i = 0 ; i < str.length; ++i) {
+//         reversedString = str[i] + reversedString
+//     }
+//     return reversedString
+// }
+
+
+
+console.log(reverseString('abc'))
